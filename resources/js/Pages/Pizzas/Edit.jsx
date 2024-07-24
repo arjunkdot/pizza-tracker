@@ -20,7 +20,7 @@ export default function All({ auth, pizza }) {
                     <div className="bg-white overflow-hidden shadow-sm sm:rounded-lg p-10">
                         <UpdatePizzaOrderForm
                             pizza={pizza}
-                            className="max-w-xl"
+                            className="max-w-xl w-full"
                         />
                     </div>
                 </div>
